@@ -1,0 +1,209 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;0,700;1,500&display=swap');
+
+body {
+    min-width: 1219px;
+    margin: auto auto;
+    background-color: #EEEEEE;
+}
+
+li {
+    display: inline-block;
+    vertical-align: middle;
+    color: #ffffff;
+}
+
+a {
+    text-decoration: none;
+    font-family: 'Roboto';
+    color: #ffffff; 
+}
+
+.menu_section {
+    margin-top: -84px;
+    width: 100%;
+    position: fixed;
+    z-index: 10;
+    text-align: center;
+    background: #007765;
+    height: 84px;
+}
+
+.menu img {
+    height: 45px;
+    margin: 0px;
+    padding: 0px 50% 0px 0px; /*500*/
+}
+
+.slogan_container {
+    /* width: 100%; */
+    text-align: center;
+}
+
+.slogan_section{
+    margin-top: 84px;
+    /* width: auto; */
+    height: 403px;
+    /* background: no-repeat center/100% url(./pics/image.png); */
+    background-image: url(./pics/image.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+
+}
+.slogan_section h1 {
+    text-align: center;
+    font-family: 'Roboto';
+    font-size: 72px;
+    font-weight: normal;
+    padding: 165px 0px 0px 0px; /* 165px why? <- (h/2 + font/2) */
+    color: #ffffff;
+}
+
+.problem_container {
+    /* width: 100vw;; */
+    text-align: center;
+    background-color: #EEEEEE;
+}
+
+.problem_section {
+    width: 1100px;/*100vw;*/
+    /* text-align: center; */
+    
+    padding: 0px 55px 0px 55px;
+    margin: 0px auto 0px auto;
+}
+
+.problem_section h1, .PPC h1, .team h1 {
+    margin-left: -55px;
+    text-align: center;
+    font-family: 'Roboto';
+    font-size: 64px;
+    color: #007765;
+}
+
+p {
+    font-family: 'Roboto';
+    font-size: 24px;
+    text-align: left;
+}
+
+.hero_container{
+    /* margin-top: 84px; */
+    text-align: center;
+    /* width: 100vw; */
+
+    height: 483px;
+    background-image: url(./pics/hero.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+
+}
+.hero_section {
+    width: 700px;
+    padding: 0px 55px 0px 55px;
+    margin: 0px auto 0px auto;
+}
+
+.hero_section h2 {
+    text-align: center;
+    font-family: 'Roboto';
+    font-size: 48px;
+    font-weight: lighter;
+    font-style: italic;
+    padding: 125px 0px 0px 0px; /* 150px why?*/
+    color: #ffffff;
+}
+
+.PPC_container {
+    text-align: center;
+    /* width: 100vw; */
+    background-color: white;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.PPC{
+    width: 1110px; /*700px;*/
+    padding: 0px 55px 0px 55px;
+    margin: 0px auto 0px auto;
+}
+
+.PPC img {
+    float: left;
+    padding-right: 48px;
+    width: 115px;;
+}
+
+
+/*--------------- TEAM --------------- */
+.team_container {
+    text-align: center;
+    width: 100vw;
+}
+
+.team {
+    width: 1110px;
+    padding: 0px 55px 0px 55px;
+    margin: 0px auto 0px auto;
+}
+
+.team_pics {
+    display: inline-block;
+    margin-top: -50px;
+}
+
+/* ul {
+    margin-top: -50px;
+} */
+
+.member {
+    display: inline-block;
+    width: 350px;
+    text-align: center;
+    padding: 0;/*56px 91px 14px 91px;*/
+    margin-top: 50px; /*0px 15px 0px 15px;*/
+}
+.member img {
+    width: 168px;
+    margin-bottom: 15px;
+    /* padding: 56px 91px 14px 91px;
+    margin: 0px 15px 0px 15px; */
+}
+.name {
+    width: 200px;
+    
+    font-size: 24px;
+    font-weight: bold;
+    color: #007765;
+}
+.position {
+    width: 200px;
+    text-align: center;
+    font-size: 18px;
+    font-style: italic;
+    color: black;
+}
+
+footer {
+    /* width: 100vw; */
+    text-align: center;
+    background-color: #333333;
+    margin-top: 100px;
+}
+
+.footer_section {
+    width: 540px;
+    margin: auto;
+    padding: 48px 0px 48px 0px;
+    text-align: center;
+}
+
+.footer_section p {
+    text-align: center;
+    color: white;
+    font-size: 18px;
+    font-weight: 400;
+
+}
+
